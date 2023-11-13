@@ -1,0 +1,100 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  
+  .form {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    color: #635b5b;
+    text-align: center;
+  }
+  
+  .inputBox {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+  }
+  
+  .inputBox span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #a31a1a;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .inputBox input:focus ~ span,
+  .inputBox input:valid ~ span {
+    color: #ff3333;
+    font-size: 12px;
+    top: -20px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+  }
+  
+  input[type="submit"],
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    background: #ff3333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  input[type="submit"]:hover,
+  button[type="submit"]:hover {
+    background: #cc0000;
+  }
+  
+  .bill-details {
+    color: #ec9f8d; 
+}
+  .bill-container {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .bill-container h3 {
+    text-align: center;
+  }
+  
+  .bill-container p {
+    margin: 10px 0;
+  }
+  
+  .bill-container strong {
+    font-weight: bold;
+  }
+  

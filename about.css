@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    color: rgb(68, 68, 68);
+}
+
+header {
+    position: static;
+}
+
+header nav a {
+    color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+    background-color: rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffffbb;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+#about {
+    margin-bottom: 48px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    margin-top: 48px;
+    padding: 20px 0;
+    background-color: white;
+    color: rgb(183, 230, 235);
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}

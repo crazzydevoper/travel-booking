@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bookings.css">
+    <link rel="stylesheet" href="css/shared2.css" />
+    <link rel="stylesheet" href="css/places.css" />
+  <title>Make Bookings Form</title>
+  
+</head>
+<body>
+<header>
+      <div id="page-logo">
+        <a href="index.html">Travel Goals</a>
+      </div>
+      <nav> 
+        <ul>
+          <li><a href="places.html">Destinations</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+  <div class="container">
+    <div class="form">
+      <h2>Make Booking</h2>
+      <form action="make_bookings.html" method="POST" id="booking-form">
+        <div class="inputBox">
+            <input type="text" name="username" placeholder="Username">               
+        </div>
+        <div class="inputBox">
+            <input type="number" name="no_of_children" placeholder="No. of Children">
+        </div>
+        <div class="inputBox">
+            <input type="number" name="no_of_adults" placeholder="No. of Adults">
+        </div>
+        <div class="inputBox">
+            <select name="hotel_name" placeholder="Place Name">
+                <option value="Barcelona">Barcelona</option>
+                <option value="Hawaii">Hawaii</option>
+                <option value="London">London</option>
+                <option value="Miami">Miami</option>
+                <option value="New York City">New York City</option>
+                <option value="Paris">Paris</option>
+                <option value="Sydney">Sydney</option>
+                <option value="Tokyo">Tokyo</option>
+                <option value="Bali">Bali</option>
+            </select>
+        </div>
+        <button type="submit">Confirm Booking</button>
+        <a href="bill.html" class="button">Generate Bill</a>
+    </form> 
+    </div>
+  </div>
+  <footer>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com">
+            <img src="images/insta.png" alt="Instagram logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com">
+            <img src="images/facebook.png" alt="Facebook logo"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+</body>
+</html>
